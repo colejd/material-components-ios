@@ -128,7 +128,7 @@
                         sheetState:(MDCSheetState)sheetState {
   _state = sheetState;
   [self updateShapeGenerator];
-  [self.delegate bottomSheetControllerWillChangeState:self sheetState:sheetState];
+  [self.delegate bottomSheetControllerWillChangeState:self];
 }
 
 - (id<MDCShapeGenerating>)shapeGeneratorForState:(MDCSheetState)state {
