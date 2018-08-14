@@ -140,5 +140,6 @@
  */
 - (void)bottomSheetControllerDidDismissBottomSheet:(nonnull MDCBottomSheetController *)controller;
 
-- (void)bottomSheetControllerWillChangeState:(nonnull MDCBottomSheetController *)controller;
+- (void)bottomSheetControllerWillChangeState:(nonnull MDCBottomSheetController *)controller
+                                  sheetState:(MDCSheetState)state;
 @end
