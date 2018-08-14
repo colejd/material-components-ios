@@ -140,4 +140,6 @@
  */
 - (void)bottomSheetControllerDidDismissBottomSheet:(nonnull MDCBottomSheetController *)controller;
 
+- (void)bottomSheetControllerWillChangeState:(MDCBottomSheetPresentationController *)bottomSheet
+                                  sheetState:(MDCSheetState)sheetState;
 @end
